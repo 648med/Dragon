@@ -28,7 +28,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const zack = 'https://envs.sh/wHc.jpg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
-conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `˼⚡˹↜ مـࢪحـبـا بـك/ي @${mentionId.split('@')[0]}
+conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `˼🐲˹↜ مـࢪحـبـا بـك/ي @${mentionId.split('@')[0]}
 > ˼🪪˹↜ مــعــلــومــاتــك ↶
 ╮───────────────────⟢ـ
 ┆⚡↜ بـريـمـيـوم↞⌊ ${user.premiumTime > 0 ? 'مــمـ🔱ـيز' : (isPrems ? 'مــمـ🔱ـيز' : 'عــ🍁ــادي') || ''} ⌉
@@ -39,12 +39,12 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 ╯───────────────────⟢ـ
 > ˼🤖˹↜ الــبــوت↶
 ╮───────────────────⟢ـ
-┆⚙️ ↜اسـم الـبـوت↶﹝𝐅𝐋𝐀𝐒𝐇﹞
-┆🪄 ↜الـمـطـور ↶﹝𝐅𝐋𝐀𝐒𝐇_𝐓𝐄𝐀𝐌﹞
+┆⚙️ ↜اسـم الـبـوت↶﹝𝐃𝐑𝐀𝐆𝐎𝐍﹞
+┆🪄 ↜الـمـطـور ↶﹝𝐀𝐒𝐓𝐀﹞
 ┆📌 ↜الـتـشـغـيـل ↶﹝${uptime}﹞
 ┆🔖 ↜الــمــســتـخـدمـيـن ↶﹝${rtotalreg}﹞
 ╯───────────────────⟢ـ
-> © 𝐍𝐀𝐑𝐔𝐓𝐎 & 𝐙𝐀𝐂𝐊 2025`,subtitle: "Araab Zack",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> © 𝐃𝐀𝐑𝐊𝐍𝐄𝐒𝐒 𝐊𝐈𝐍𝐆𝐃𝐎𝐌 2025`,subtitle: "Araab Zack",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
                         isForwarded: false,
@@ -57,8 +57,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام فلاش بـ🤖ـوت',
-                                            highlight_label: 'بوت فلاش تحت أمرك 🤖',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام بـ🤖ـوت دراغون',
+                                            highlight_label: 'بوت دراغون تحت أمرك 🤖',
                                             rows: [
                                                 {
                                                     header: 'الــقـ👑ـســم الـاول',
@@ -103,19 +103,19 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                                     id: '.ق6'
                                                 },
                                                 {
-                                                    header: 'الــقـ🤖ـســم الــتــاســع',
+                                                    header: 'الــقـ🤖ـســم الــثــامــن',
                                                     title: 'استدعاء_قسم_الذكاء #الذكاء',
                                                     description: '',
                                                     id: '.ق7'
                                                 },
                                                 {
-                                                    header: 'الــقـ🚨ـســم الــعــاشــر',
+                                                    header: 'الــقـ🚨ـســم الــتــاســع',
                                                     title: 'استدعاء_قسم_الدعم #الدعم',
                                                     description: '',
                                                     id: '.ق8'
                                                 },
                                                 {
-                                                    header: 'الــقـ🔍ـســم �لــحــاديــة عــشــر',
+                                                    header: 'الــقـ🔍ـســم الــعــاشــر',
                                                     title: 'استدعاء_قسم_ابحث #البحث',
                                                     description: '',
                                                     id: '.ق11'
@@ -128,7 +128,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الــبــوت╎📲⌋","url":"https://whatsapp.com/channel/0029VaoUBmSKmCPIIiEatx1H","merchant_url":"https://whatsapp.com/channel/0029VaoUBmSKmCPIIiEatx1H"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الــبــوت╎📲⌋","url":"https://whatsapp.com/channel/0029VarLZsfADTOELyrKk52q","merchant_url":"https://whatsapp.com/channel/0029VarLZsfADTOELyrKk52q"}'
                             }
                         ]
                     }
