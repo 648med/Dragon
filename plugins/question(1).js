@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   conn.tekateki = conn.tekateki ? conn.tekateki : {};
   const id = m.chat;
   if (id in conn.tekateki) {
-    conn.reply(m.chat, '*❐┃في سؤال هنا يــا بــاكــا┃❌ ❯*', conn.tekateki[id][0]);
+    conn.reply(m.chat, '*❐┃في سؤال هنا خلصه الأول┃❌ ❯*', conn.tekateki[id][0]);
     throw false;
   }
   const tekateki = JSON.parse(fs.readFileSync(`./src/game/acertijo.json`));
@@ -18,9 +18,9 @@ const handler = async (m, {conn, usedPrefix}) => {
 ╮───────────────────⟢ـ
 ┆❐↞┇الـوقـت⏳↞ ⌊${(timeout / 1000).toFixed(2)} ثانية⌉
 ┆❐↞┇الـجـائـزة💰↞ ⌊${poin} دولار⌉
-┆❐↞┇المطور 🤖↞ ⌊نــاروتـو - عــراب زاك⌉
+┆❐↞┇المطور 🤖↞ ⌊استا - مايكي⌉
 ╯───────────────────⟢ـ
-> فلاش بــوت
+> بــوت دراغون
 `.trim();
   conn.tekateki[id] = [
     await conn.reply(m.chat, caption, m), json,
