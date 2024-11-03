@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
   await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
-  const zack = 'https://envs.sh/wHc.jpg'
+  const dragon = 'https://envs.sh/_yQ.jpg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `˼🐲˹↜ مـࢪحـبـا بـك/ي @${mentionId.split('@')[0]}
@@ -44,7 +44,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 ┆📌 ↜الـتـشـغـيـل ↶﹝${uptime}﹞
 ┆🔖 ↜الــمــســتـخـدمـيـن ↶﹝${rtotalreg}﹞
 ╯───────────────────⟢ـ
-> © 𝐃𝐀𝐑𝐊𝐍𝐄𝐒𝐒 𝐊𝐈𝐍𝐆𝐃𝐎𝐌 2025`,subtitle: "Araab Zack",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> © 𝐃𝐀𝐑𝐊𝐍𝐄𝐒𝐒 𝐊𝐈𝐍𝐆𝐃𝐎𝐌 2025`,subtitle: "Araab Zack",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: dragon } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
                         isForwarded: false,
@@ -140,6 +140,6 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 
 handler.help = ['info'];
 handler.tags = ['main'];
-handler.command = ['menu', 'مهام', 'اوامر','الاوامر','قائمة','القائمة']
+handler.command = ['menu2', '2مهام2', 'اوامر2','الاوامر2','قائمة2','القائمة']
 
 export default handler;
